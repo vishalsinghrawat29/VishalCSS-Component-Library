@@ -1,0 +1,29 @@
+.components-page {
+}
+.components-page > .components {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.components-page > .components > a {
+  margin: 2.5% 0;
+  flex-basis: 30%;
+  text-decoration: none;
+  display: block;
+  padding: 2%;
+  text-align: center;
+  color: #ff0088;
+  background-color: #ffd8ed;
+  border: 1px dashed #adadad;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.components-page > .components > a:hover {
+  border-color: #ff0088;
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+}

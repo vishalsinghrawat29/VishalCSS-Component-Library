@@ -1,0 +1,29 @@
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.alert span {
+  font-size: 2rem;
+}
+.error {
+  background-color: #ff9495;
+  color: #b30105;
+}
+.check_circle {
+  background-color: #c6ffc1;
+  color: #67a353;
+}
+
+.warning {
+  background-color: #ffe88b;
+  color: #be8d05;
+}
+.info {
+  background-color: #b6d8ff;
+  color: #076bbc;
+}

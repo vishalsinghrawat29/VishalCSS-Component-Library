@@ -1,0 +1,27 @@
+.text-component {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.xl6 {
+  font-size: var(--xl6);
+}
+.xl5 {
+  font-size: var(--xl5);
+}
+.xl4 {
+  font-size: var(--xl4);
+}
+.xl3 {
+  font-size: var(--xl3);
+}
+.xl2 {
+  font-size: var(--xl2);
+}
+.xl {
+  font-size: var(--xl);
+}
+.lg {
+  font-size: var(--lg);
+  height: inherit;
+}

@@ -1,0 +1,16 @@
+.badge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.badge-label {
+  position: relative;
+  font-size: 8px;
+  top: 4px;
+  right: 10px;
+  text-align: center;
+  padding: 0.1em 0.55em;
+  border-radius: 100%;
+  background-color: rgb(255, 168, 200);
+}

@@ -1,0 +1,63 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  background-color: #efefef;
+  z-index: 5;
+}
+.nav h1,
+.nav .input,
+.nav ul {
+  flex-basis: 33%;
+}
+.nav h1 {
+  color: #ff0088;
+  cursor: pointer;
+}
+.nav > .input {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav > .input > input {
+  border: 1px solid #adadad;
+  width: 100%;
+  height: 100%;
+  font-size: 0.9rem;
+  padding: 0.4rem;
+  border-radius: 5px 0 0 5px;
+}
+.nav > .input > input:focus {
+  outline: none;
+}
+.nav > .input > button {
+  background-color: #ff0088;
+  color: white;
+  padding: 0 5%;
+  border-radius: 0 5px 5px 0;
+  position: relative;
+  right: 1px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8%;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav > ul > li > a:hover {
+  text-decoration: none;
+  color: #ff0088;
+  transition: all 0.2s ease-in-out;
+}

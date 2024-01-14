@@ -1,0 +1,15 @@
+.heading-component {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.heading-component > h1,
+.heading-component > h2,
+.heading-component > h3,
+.heading-component > h4,
+.heading-component > h5,
+.heading-component > h6,
+.heading-component > p,
+.heading-component > span {
+  margin: 0;
+}

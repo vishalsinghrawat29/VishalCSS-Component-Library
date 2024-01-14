@@ -1,0 +1,79 @@
+button {
+  cursor: pointer;
+}
+.primaryBtn {
+  background-color: #00a7e9;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  border: 1px solid #00a7e9;
+  transition: all 0.3s ease-in-out;
+}
+.primaryBtn:hover {
+  background-color: white;
+  color: #00a7e9;
+  transition: all 0.3s ease-in-out;
+}
+.linkBtn {
+  text-decoration: none;
+  color: rgb(255, 0, 93);
+  padding: 7px 14px;
+  font-size: 0.9rem;
+}
+.linkBtn:hover {
+  text-decoration: underline;
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+.iconBtn > p {
+  font-size: 1rem;
+}
+.iconBtn > span {
+  font-size: 1.1rem;
+}
+.addIcon {
+  color: #185600;
+  background-color: #daffcb;
+}
+.deleteIcon {
+  color: #bc0341;
+  background-color: #f8c3d4;
+}
+.editIcon {
+  color: #800080;
+  background-color: #ffcfff;
+}
+.searchIcon {
+  color: #0b61bd;
+  background-color: #c3ddfa;
+}
+
+.floatingBtn {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: white;
+}
+
+.addFloat {
+  background-color: #42b713;
+}
+.deleteFloat {
+  background-color: #fa1561;
+}
+.editFloat {
+  background-color: #cf16cc;
+}
+.searchFloat {
+  background-color: #047dff;
+}

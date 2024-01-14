@@ -1,0 +1,31 @@
+.aside {
+  flex-basis: 12%;
+  position: sticky;
+  top: 3.7rem;
+  z-index: 5;
+  min-height: calc(100vh - 4rem);
+}
+.aside ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 5%;
+  height: calc(100vh - 4rem);
+  padding: 2rem;
+}
+.aside ul li {
+  width: 100%;
+}
+.aside a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.aside a:hover {
+  color: #ff0088;
+  transition: all 0.2s ease-in-out;
+}
