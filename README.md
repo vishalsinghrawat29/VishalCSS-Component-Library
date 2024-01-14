@@ -65,4 +65,4 @@ Enhance your images with responsive, round, and customizable features.
 
 If you have any suggestions, questions, or feedback, please feel free to contact me at vsrawat2906@gmail.com .
 
-Thank you for using Minute - watch store. We wish you have a wonderful shopping experience!
+Thank you for using Vishal'CSS Component Library. We wish you have a wonderful development experience!
